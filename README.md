@@ -1,1 +1,1 @@
-# Landingbage
+# LandingPage
