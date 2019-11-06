@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+header{
+    background: rgb(210, 188, 231);
+    display: flex;
+}
+.heder{
+   
+    padding: 20px;
+    display: flex;
+}
+.logo{
+    flex: 30%;
+}
+.nav{
+    justify-content: flex-end;
+    padding:14px 20px;
+}
+nav>a{
+    padding:14px 20px;
+    text-decoration: none;
+}
+.logo>a{
+    padding:14px 20px;
+    float: left;
+    text-decoration: none;
+    
+}
+.tex{
+    width: 100%;
+    padding: 10PX;
+    height: 200px;
+    background: rebeccapurple;
+    width: 50%;
+   
+    
+}
+.tex>h1{
+    margin: 10px;
+}
+button{
+    padding: 5px 7px;margin: 10px;
+}

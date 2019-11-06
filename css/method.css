@@ -1,0 +1,78 @@
+@media(max-width:900px){
+    .logo{
+        font-size: 30px;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 5%; 
+        background: rgb(241, 33, 85);
+        padding: 3px;
+        color: white;
+    }
+    .row{
+        display: block;
+    }
+    .nave{
+        display: flex;
+        justify-content: center;
+    }
+    .immmg2{
+        height:"250px" ;
+        width:"500px";
+    }
+    .nave nav ul{
+        display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    }
+    .nave nav ul>.home a{
+        background: none;
+        color: rgb(241, 33, 85);
+    }
+    .nave nav ul li a:hover{
+        background: none;
+    }
+    button{
+        width: 5.35cm;
+        height: 2.19cm;
+        font-size: 20px;
+    }
+    .tex{
+        font-size: 30px;
+        flex-wrap: nowrap;
+        
+    }
+    .tex>h1{
+        font-size: 30px;
+        
+      
+     }
+     .box{
+         font-size: 10px;
+
+     }
+     .box h2{
+         font-size: 15px;
+         font-weight: bold;
+
+     }
+     .fot1{
+         width: 30%;
+         text-align: justify;
+         font-size: 40px;
+         
+     }
+     .fab{
+         font-size: 40px;
+
+     }.osm{
+         padding-top: 40px;
+         
+     }
+     
+
+     
+
+   
+}

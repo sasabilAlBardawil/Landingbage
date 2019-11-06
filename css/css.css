@@ -1,0 +1,346 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+header{
+    background: url(../img/home.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: px;
+    width: 100%;
+    
+}
+.row{
+   
+    padding: 40px;
+    display: flex;
+    width: 100%;
+}
+.nave nav ul li a:hover{
+    background: rgb(241, 33, 85);
+    color: white;
+    margin-left: 20px;
+    padding: 30px 15px;
+    width: 100%;
+}
+.cover{
+background-color: rgba(0,0,0,0.8);
+min-height: 650px;
+width: 100%;
+}
+.logo{
+    flex: 40;
+    color: rgb(241, 33, 85);
+    font-size: 30px;
+    justify-content: flex-end;
+    width: 100%;
+  
+}
+.nave{
+    display: flex;
+    justify-content: flex-end;
+    flex:60;
+    flex-direction: row;
+    width: 100%;
+}
+.nave nav ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    justify-items: center;
+    list-style: none;
+}
+.nave nav ul a{
+    justify-content:space-between;
+    color: rgb(241, 33, 85);
+    justify-items: center;
+
+}
+.nave nav ul>.home a{
+    background: rgb(241, 33, 85);
+    color: white;
+    padding: 30px 15px; 
+}
+.nave nav ul li a{
+   
+   
+   margin-left: 30px;
+   font-size: 40px;
+   text-decoration: none;
+
+}
+
+.tex{
+    width: 100%;
+    padding: 10PX;
+    height: 200px;
+    padding: 50px 0px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    
+    font-family: sans-serif;
+
+}
+
+.tex>h1{
+    font-size: 70px;
+   
+    margin: 10px;
+}
+.tex p{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+button{
+    padding: 5px 7px;margin: 10px;
+    background: crimson;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    width: 9.35cm;
+    height: 2.19cm;
+    margin: 40px;
+}
+.section1{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 100px;
+}
+.section1 h2{
+    font-size: 30px;
+    padding: 30px 0px;
+    
+}
+.section1 p{
+    word-spacing: 1px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.sec2{
+    min-width: 10px;
+    margin: 50px;
+    border-bottom:2px solid crimson;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    
+    
+}
+.immg1,.immg2,.immg3,.immg4{
+    margin: 20px;
+}
+.immg1:hover{
+    transform: scale(1.1,1.1);
+   
+}
+.immg4:hover{
+    transform: scale(1.1,1.1);
+}
+.immg2:hover{
+    transform: scale(1.1,1.1);
+}
+.immg3:hover{
+    transform: scale(1.1,1.1);
+}
+.f{
+width: 200px;
+height: 100px;
+
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+.font1{
+    color: black;
+}
+/*////////////////////////////////////////////////////////////*/
+
+.focust{
+    
+   
+    width: 100%;
+    text-align: center;
+   color: white;
+    background: url(../img/fact_background.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 30px;
+    margin-top: 80px;
+}
+.section1 h2{
+font-size: 40px;
+
+}
+.section1 p{
+    margin: 40px 0px;
+    font-size: 20px;
+   
+}
+
+.milestone_col{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    color: white;
+    margin: 100px 0px;
+    
+   
+   
+    
+}
+
+.fas{
+    color: white;
+    font-size: 50px;
+}
+.col-lg1{
+    width: 30%;
+}
+.col-lg1 h3{
+    font-size: 40px;
+    margin: 30px 0px;
+
+}
+.col-lg1 h4{
+    font-size: 25px;
+}
+
+.boxs{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin: 5%;
+    justify-items: center;
+}
+.section3 h1{
+    text-align: center; 
+    
+    
+}
+.box{
+    background: white;
+    width: 30%;
+    padding: 10px;
+    border-left: 1 solid rgb(240, 123, 152);
+    
+}
+.box p{
+    padding: 50px 0px;
+    font-size: 20px;
+}
+.box span{
+    font-weight: bold;
+    font-size: 15px;
+}
+.box span:hover{
+    color: rgb(241, 33, 85);
+}
+.box h2 {
+    display: flex;
+    justify-content: center;
+}
+.section3{
+    margin-top:100px;
+}
+.section3 h1{
+    font-size: 35px;
+    padding: 15px;
+}
+.section3 h3{
+    color: rgb(68, 67, 67);
+    text-align: center;
+   
+}
+.section3 button{
+    flex: 30px;
+
+    width: 8.26cm;
+    height: 2.08cm;
+    border-radius: 3px;
+    background: crimson;
+}
+input{
+    flex: 70px;
+    height: 60px;;
+    width: 60%;
+    box-shadow: 2px 2px 2px crimson;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.section4{
+    background: url(../img/find.jpg) center center;
+    background-size: cover;
+    min-height: 300px;
+   align-items: center;
+   padding:10%;
+    
+    
+}
+footer{
+    min-height: 200px;
+    background: black;
+    display: flex;
+    width: 100%;
+    
+   
+    
+}
+.fot1{
+    word-break: break-all;
+   
+    color: white;
+    width: 60%;
+    
+}
+.fot1 h2{
+    color: rgb(241, 33, 85);
+    font-size: 40px;
+    padding-left: 20px;
+}
+.fot1 p{
+    padding: 20px;
+    font-size: 20px;
+}
+.fontt{
+    flex: 50%;
+   
+    
+
+}
+.cleare{
+    clear: both;
+}
+.fab{
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+}
+.fab:hover{
+    color: rgb(241, 33, 85);
+}
+.osm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
